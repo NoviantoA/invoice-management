@@ -1,2 +1,4 @@
-package novianto.anggoro.invoice.exception;public class PaymentExceedInvoiceException {
+package novianto.anggoro.invoice.exception;
+
+public class PaymentExceedInvoiceException {
 }
