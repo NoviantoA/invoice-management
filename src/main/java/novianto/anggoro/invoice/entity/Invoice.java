@@ -20,6 +20,10 @@ import java.time.LocalDate;
 @Where(clause = "status_record = 'ACTIVE'")
 public class Invoice extends BaseEntity{
 
+    @NotNull
+    @ManyToOne
+    @JoinColumn(name = "id_customer")
+    private Customer customer;
     @ManyToOne
     @JoinColumn(name = "id_invoice_type")
     @NotNull

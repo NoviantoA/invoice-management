@@ -4,8 +4,9 @@ import novianto.anggoro.invoice.exception.VirtualAccountAlreadyPaidException;
 import novianto.anggoro.invoice.exception.VirtualAccountNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
+@SpringBootTest
 public class PaymentServiceTest {
 
     @Autowired

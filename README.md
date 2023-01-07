@@ -18,3 +18,15 @@ Tipe tagihan yang tersedia saat ini hanya:
   * CLOSED : bayar sesuai nominal. kalau tidak sesuai, ditolak
   * OPEN : pembayaran berapapun diterima
   * INSTALLMENT : pembayaran diterima selama total akumulasi lebih kecil atau sama dengan nilai tagihan
+
+Fitur aplikasi:
+
+* Manajemen invoice
+  * membuat invoice
+  * mengganti nilai dan tanggal jatuh tempo
+  * membatalkan invoice
+
+* Manajemen Customer
+  * registrasi customer
+  * rekap tagihan customer
+  * history pembayaran
