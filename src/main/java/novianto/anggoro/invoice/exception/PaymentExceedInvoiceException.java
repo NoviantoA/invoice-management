@@ -1,4 +1,4 @@
 package novianto.anggoro.invoice.exception;
 
-public class PaymentExceedInvoiceException {
+public class PaymentExceedInvoiceException extends Exception {
 }
